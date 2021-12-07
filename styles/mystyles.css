@@ -1,0 +1,44 @@
+/*4 overwritten styles */
+body {
+    font-size: 1.20rem;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+a {
+    color: white;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+a:visited {
+    color: rgba(236, 236, 236, 0.562);
+}
+/*end of 4*/
+
+.common {
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px grey;
+}
+.leftmenu{
+    top: 100px;
+    left: 5px;
+    width: 120px;
+    bottom: 115px;
+    z-index: 1;
+    padding-top: 50px;
+    padding-left: 10px;
+    border-right: solid 1px grey;
+    text-decoration: white;
+}
+/*custom background color*/
+.background {
+    background-color:whitesmoke;
+}
